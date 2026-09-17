@@ -6,9 +6,9 @@ An embedded C/C++ control subsystem designed to regulate stirring speed (RPM) in
 
 ## System Overview
 
-Maintaining exact rotational speeds is critical in bioreactor cell cultivation to ensure proper oxygenation and nutrient distribution while preventing shear stress on cells.
+Maintaining uniform and controlled mixing of the liquid inside a bioreactor is critical to maintain a homogenous environment for cell cultivation. Thus, the stirring subsystem must be able to maintain exact rotational speeds.
 
-This subsystem monitors motor rotational velocity via hardware interrupts from a digital Hall effect sensor and computes dynamic PWM corrections through a tuned PI controller to maintain target RPM under variable fluid viscosity and load conditions.
+This subsystem monitors motor rotational velocity via hardware interrupts from a digital Hall effect sensor and computes dynamic PWM corrections through a tuned PI controller to maintain target RPM under variable fluid viscosity and load conditions. 
 
 ---
 
